@@ -188,7 +188,10 @@
         }
 
         $("#btn").click(function () {
-            $.post("getAudit",)
+
+            $("#dv").datagrid('load',{
+
+            })
         })
     </script>
 </head>
